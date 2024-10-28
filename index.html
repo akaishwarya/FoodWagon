@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+
+   
+    <!--  Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .bg-holdd{
+            position: absolute;
+           top: 0;
+           left: 0;
+           z-index: 0;
+           background-size: cover;
+           background-position: center;
+           background-clip: border-box;
+           
+        }
+        .bg-sec{
+            background: url("img/cta-two-bg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="">
+
+    <!-- Navbar -->
+
+     <header>
+        <nav class="flex bg-white h-20 justify-between px-10">
+            <div  class="flex justify-center items-center gap-2">
+                <img src="img/logo.svg" alt="" class="h-10">
+                <h1 class= "text-yellow-700 font-bebas font-extrabold tracking-wide ">F o o d W a g o n</h1>
+            </div>
+            <div class="lg:flex lg:justify-center lg:items-center lg:space-x-2 hidden ">
+                <b>Deliver to:</b>
+                <img src="img/location.png" class="h-5" alt=""> 
+                <span class="text-gray-500 font-normal"> Current Location </span><b> Mirpur 1 bus srtand, Dhaka </b>
+                
+            </div>
+            <div class="flex justify-center items-center">
+                <i class="fa-solid fa-magnifying-glass" style="color: #FFD43B;"></i>
+                <input type="text" placeholder="Search Food" class="hidden md:block outline-none  ">
+                <button class="">
+                    <i class="fa-solid fa-user" style="color: #FFD43B;"></i>
+                    Login
+                </button>
+            </div>
+        </nav>
+     </header>
+
+     <main>
+
+         
+         <!-- Home Section -->
+         
+         <section class="w-full  bg-yellow-500">
+
+            <div class="p-6  flex-col  flex lg:flex-row  w-full  justify-center items-center">
+                <div  class=" lg:w-1/3 mt-10 lg:mt-2">
+                    <h1 class="text-white font-extrabold text-4xl ">Are You Starving?</h1>
+                    <p class="text-xl font-bold mt-3">Within a few clicks, find meals that <br>are accessible near you</p>
+
+                    <div class="bg-white text-black py-8 mt-10   px-6 rounded-md justify-center items-center">
+                        <div class="flex gap-4  mb-3">
+                            <a href="" class="bg-orange-100 p-3">
+
+                                <p><i class="fa-solid fa-motorcycle" style="color: #eaba0b;"></i> Delivery</p>
+                            </a>
+                            <a href="" class="p-3">
+
+                                <p><i class="fa-solid fa-bag-shopping"></i> Pickup</p>
+                            </a>
+                        </div>
+                        <i class="fa-solid fa-location-dot" style="color: #fdc90d;"></i>
+                        <input type="text" class="outline-none"  placeholder="Enter Your Address">
+                        <button class="bg-orange-400 hover:bg-orange-300 transaction duration-300 text-white rounded-md px-4 py-2">Find Food</button>
+
+                    </div>
+
+                </div>
+                <div class="mt-16 lg:w-1/2 sm:w-2/3  justify-end items-center flex">
+                    <img src="img/hero-header.png"  class="lg:w-2/3 " alt="">
+                </div>
+            </div>
+             
+        </section>
+
+        <!-- offer item  -->
+
+        <section class="px-10 sm:px-16">
+            <div class=" my-16  w-full grid sm:grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-4  ">
+                <div>
+                    <div class="relative">
+                        <img src="img/discount-item-1.png" class="rounded-3xl" alt="">
+                        <div class="bg-yellow-500 px-3 py-3 rounded-xl flex absolute bottom-0 left-0">
+                            <p class="text-5xl  font-bold text-white">15</p>
+                            <div class="text-white">
+                                <p>%</p>
+                                <p>Off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="font-bold text-lg sm:text-xl sm:pb-0 pb-3">Flat Hill Slingback</p>
+                    <a href="#" class="bg-orange-100  font-bold text-lg sm:text-xl  text-orange-500 px-2 py-1">6 days Remaining</a>
+                </div>
+
+                <div class="">
+                    <div class="relative">
+                        <img src="img/discount-item-2.png" class="rounded-3xl" alt="">
+                        <div class="bg-yellow-500 px-3 py-3 rounded-xl flex absolute bottom-0 left-0">
+                            <p class="text-5xl font-bold text-white">10</p>
+                            <div class="text-white">
+                                <p>%</p>
+                                <p>Off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="font-bold text-lg sm:text-xl sm:pb-0 pb-3">Ocean Blue Ring</p>
+                    <a href="#" class="bg-orange-100  font-bold text-lg sm:text-xl text-orange-500 px-2 py-1">6 days Remaining</a>
+                </div>
+
+
+                <div>
+                    <div class="relative">
+                        <img src="img/discount-item-3.png" class="rounded-3xl" alt="">
+                        <div class="bg-yellow-500 px-3 py-3 rounded-xl flex absolute bottom-0 left-0">
+                            <p class="text-5xl font-bold text-white">25</p>
+                            <div class="text-white">
+                                <p>%</p>
+                                <p>Off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="font-bold text-lg sm:text-xl sm:pb-0 pb-3">Brown Lethered Wallet</p>
+                    <a href="#" class="bg-orange-100  font-bold text-lg sm:text-xl text-orange-500 px-2 py-1">6 days Remaining</a>
+                </div>
+
+                <div>
+                    <div class="relative">
+                        <img src="img/discount-item-4.png" class="rounded-3xl" alt="">
+                        <div class="bg-yellow-500 px-3 py-3 rounded-xl flex absolute bottom-0 left-0">
+                            <p class="text-5xl font-bold text-white">20</p>
+                            <div class="text-white">
+                                <p>%</p>
+                                <p>Off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="font-bold text-lg sm:text-xl pb-3 sm:pb-0">Silverside Wristwatch</p>
+                    <a href="#" class="bg-orange-100  font-bold text-lg sm:text-xl text-orange-500 px-2 py-1">6 days Remaining</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- How does it work  -->
+
+        <section class="">
+            <div class=" flex-row justify-center my-56 w-full items-center">
+                <h1 class="font-bold text-3xl sm:text-4xl text-orange-400 text-center my-8 sm:my-16">How does it work</h1>
+                <div class=" px-10 grid md:grid-cols-2 sm:grid-cols-1 gap-10 sm:gap-20 md:gap-14 lg:grid-cols-4 mt-36">
+
+                    <div class="text-center flex flex-col justify-center items-center">
+                        <img src="img/location.png" class="w-100" alt="">
+                        <h3 class="font-bold text-xl mt-8">Select Location</h3>
+                        <p>Choose the location where 
+                             your food will be delivered.</p>
+                    </div>
+
+                    <div  class="text-center justify-center flex flex-col items-center">
+                        <img src="img/order.png" class="" alt="">
+                        <h3 class="font-bold text-xl mt-8">Choose Order</h3>
+                        <p>Check over hundreds of menus to pick Your favorite food</p>
+                    </div>
+
+                    <div class="flex text-center flex-col justify-center items-center ">
+                        <img src="img/pay.png" class="" alt="">
+                        <h3 class="font-bold text-xl mt-8">Pay advanced</h3>
+                        <p>
+                            it's quick, safe and simple. Select sevaral methods of payment
+                        </p>
+                    </div>
+
+                    <div class="flex text-center flex-col justify-center items-center">
+                        <img src="img/meals.png" alt="">
+                        <h3 class="font-bold text-xl mt-8 ">Enjoy meals</h3>
+                        <p>Food is made and delivered directly to your home.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular items -->
+
+
+        <section>
+            <div>
+                <div>
+                    <h1 class="font-bold text-3xl sm:text-5xl text-orange-400 text-center">Popular Items</h1>
+                </div>
+                <div  class=" justify-center items-center my-28 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-4 gap-6 px-10">
+
+                    <div>
+                        <img src="img/cheese-burger.png" class="rounded-2xl w-full" alt="">
+                        <h3 class="mt-3 font-bold text-2xl">Cheese Burger</h3>
+                        <p class="text-orange-400 font-semibold">  Burger Arena</p>
+                        <p class="font-bold mt-3">$3.88</p>
+                        <button class="w-full text-white bg-orange-500 hover:bg-orange-400 duration-300 mt-10  font-bold py-2 rounded-md">Order Now</button>
+                    </div>
+
+                    <div>
+                        <img src="img/toffes-cake.png" class="rounded-2xl w-full" alt="">
+                        <h3 class="mt-3 font-bold text-2xl">Toffe's Cake</h3>
+                        <p class="text-orange-400 font-semibold">  Top Sticks</p>
+                        <p class="font-bold mt-3">$3.88</p>
+                        <button class="w-full text-white bg-orange-500 hover:bg-orange-400 duration-300 mt-10  font-bold py-2 rounded-md">Order Now</button>
+                    </div>
+
+                    <div>
+                        <img src="img/dancake.png" class="rounded-2xl w-full" alt="">
+                        <h3 class="mt-3 font-bold text-2xl">Dancake</h3>
+                        <p class="text-orange-400 font-semibold">  Cake World</p>
+                        <p class="font-bold mt-3">$3.88</p>
+                        <button class="w-full text-white bg-orange-500 hover:bg-orange-400 duration-300 mt-10  font-bold py-2 rounded-md">Order Now</button>
+                    </div>
+
+                    <div class="">
+                        <img src="img/crispy-sandwitch.png" class="rounded-2xl w-full" alt="">
+                        <h3 class="mt-3 font-bold text-2xl">Crispy Sandwitch</h3>
+                        <p class="text-orange-400 font-semibold">  Fastfood Dine</p>
+                        <p class="font-bold mt-3">$3.88</p>
+                        <button class="w-full text-white bg-orange-500 mt-10 hover:bg-orange-400 duration-300 font-bold py-2 rounded-md">Order Now</button>
+                    </div>
+
+                    <div class="">
+                        <img src="img/thai-soup.png" class="rounded-2xl w-full" alt="">
+                        <h3 class="mt-3 font-bold text-2xl">Thai Soup</h3>
+                        <p class="text-orange-400 font-semibold">  Food Man</p>
+                        <p class="font-bold mt-3">$3.88</p>
+                        <button class="w-full text-white bg-orange-500 mt-10 hover:bg-orange-400 duration-300  font-bold py-2 rounded-md">Order Now</button>
+                    </div>
+
+                  
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Featured Restaurants  -->
+
+    <section>
+        <div class="mx-auto py-20">
+            <h1 class=" font-bold text-3xl sm:text-4xl text-orange-400 py-16 text-center">Featured Restaurants</h1>
+
+            <!-- part 1 -->
+            <div class="mx-4 sm:mx-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-5 justify-center sm:gap-y-10 items-center">
+
+            <!-- Item 1 -->
+            <div>
+                <div  class="relative">
+                    <img src="img/food-world.png" class="rounded-xl" alt="">
+                    <div class="  absolute flex gap-3 top-3 left-3">
+                    <p class="text-white bg-orange-600 py-1 px-2 rounded-md font-semibold"><i class="fa-solid fa-tag  mr-2" style="color: #ffffff;"></i>20% off</p>
+                    <p class="text-white bg-yellow-500 py-1 px-2 rounded-md font-semibold"><i class="fa-solid fa-clock  mr-2" style="color: #ffffff;"></i>Fast</p>
+                </div>
+                </div>
+                <div class="flex gap-3 items-center my-3">
+                    <img src="img/food-world-logo.png" alt="">
+                    <div>
+                        <h3 class="font-bold">Food World</h3>
+                        <p class="text-yellow-500 font-semibold"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>46</p>
+                    </div></div>
+                    <a class="bg-orange-100 text-orange-500 py-1 px-2 font-bold">Opens Tomorrow</a>
+                </div>
+
+                <!-- item 2 -->
+
+                <div>
+                    <div class="relative">
+                        <img src="img/pizza-hub.png" class="rounded-xl " alt="">
+                        <div class="absolute flex gap-3 top-3 left-3">
+                            <p class="px-2 py-1 bg-orange-500 text-white rounded-md font-semibold"><i class="fa-solid fa-tag  mr-2" style="color: #ffffff;"></i>10% off</p>
+                            <p class="px-2 py-1 bg-yellow-500 text-white  rounded-md font-semibold"><i class="fa-solid fa-clock  mr-2" style="color: #ffffff;"></i>Fast</p>
+                        </div>
+
+                    </div>
+                    <div class="flex items-center gap-3 py-3">
+                        <img src="img/pizzahub-logo.png" alt="">
+                        <div>
+                            <h3 class="font-bold">Pizza Hub</h3>
+                            <p class="text-yellow-500"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>40</p>
+                        </div>
+                    </div>
+                    <a href="" class="text-orange-500 bg-orange-100 py-1 px-2 font-bold">Open Tomorrow</a>
+                </div>
+
+                   <!-- item 3 -->
+
+                   <div>
+                    <div class="relative">
+                        <img src="img/donuts-hut.png" class="rounded-xl" alt="">
+                        <div class="absolute flex gap-3 top-3 left-3">
+                            <p class="px-2 py-1 bg-orange-500 text-white rounded-md font-semibold"><i class="fa-solid fa-tag  mr-2" style="color: #ffffff;"></i>10% off</p>
+                            <p class="px-2 py-1 bg-yellow-500 text-white  rounded-md font-semibold"><i class="fa-solid fa-clock  mr-2" style="color: #ffffff;"></i>Fast</p>
+                        </div>
+
+                    </div>
+                    <div class="flex items-center gap-3 py-3">
+                        <img src="img/donuts-hut-logo.png" class="rounded-lg" alt="">
+                        <div>
+                            <h3 class="font-bold">Donuts Hub</h3>
+                            <p class="text-yellow-500"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>40</p>
+                        </div>
+                    </div>
+                    <a href="" class="text-green-500 bg-green-100 py-1 px-2 font-bold">Open Now</a>
+                </div>
+
+                   <!-- item 4 -->
+
+                   <div>
+                    <div class="relative">
+                        <img src="img/donuthut.png" class="rounded-xl" alt="">
+                        <div class="absolute flex gap-3 top-3 left-3">
+                            <p class="px-2 py-1 bg-orange-500 text-white rounded-md font-semibold"><i class="fa-solid fa-tag  mr-2" style="color: #ffffff;"></i>15% off</p>
+                            <p class="px-2 py-1 bg-yellow-500 text-white  rounded-md font-semibold"><i class="fa-solid fa-clock  mr-2" style="color: #ffffff;"></i>Fast</p>
+                        </div>
+
+                    </div>
+                    <div class="flex items-center gap-3 py-3">
+                        <img src="img/donut-hut-logo.png" class="rounded-lg" alt="">
+                        <div>
+                            <h3 class="font-bold">Donuts Hub</h3>
+                            <p class="text-yellow-500"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>50</p>
+                        </div>
+                    </div>
+                    <a href="" class="text-green-500 bg-green-100 py-1 px-2 font-bold">Open Now</a>
+                </div>
+            </div>
+
+            <!-- part 2 -->
+            <div class="mx-4 sm:mx-16 mt-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-5 sm:gap-y-10 justify-center items-center">
+
+                <!-- Item 1 -->
+                <div>
+                    <div  class="relative">
+                        <img src="img/ruby-tuesday.png" class="rounded-xl" alt="">
+                        <div class="  absolute flex gap-3 top-3 left-3">
+                        <p class="text-white bg-orange-600 py-1 px-2  rounded-md font-semibold"><i class="fa-solid fa-tag  mr-2" style="color: #ffffff;"></i>25% off</p>
+                        <p class="text-white bg-yellow-500 py-1 px-2 rounded-md font-semibold"><i class="fa-solid fa-clock  mr-2" style="color: #ffffff;"></i>Fast</p>
+                    </div>
+                    </div>
+                    <div class="flex gap-3 items-center my-3">
+                        <img src="img/ruby-tuesday-logo.png" alt="">
+                        <div>
+                            <h3 class="font-bold">Ruby Tuesday</h3>
+                            <p class="text-yellow-500 font-semibold"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>50</p>
+                        </div></div>
+                        <a class="bg-orange-100 text-orange-500 py-1 px-2 font-bold">Opens Tomorrow</a>
+                    </div>
+    
+                    <!-- item 2 -->
+    
+                    <div>
+                        <div class="relative">
+                            <img src="img/kuakata.png" class="rounded-xl " alt="">
+                            <div class="absolute flex gap-3 top-3 left-3">
+                                <p class="px-2 py-1 bg-orange-500 text-white rounded-md font-semibold"><i class="fa-solid fa-tag  mr-2" style="color: #ffffff;"></i>10% off</p>
+                                <p class="px-2 py-1 bg-yellow-500 text-white  rounded-md font-semibold"><i class="fa-solid fa-clock  mr-2" style="color: #ffffff;"></i>Fast</p>
+                            </div>
+    
+                        </div>
+                        <div class="flex items-center gap-3 py-3">
+                            <img src="img/kuakata-logo.png" alt="">
+                            <div>
+                                <h3 class="font-bold">Kuakata Fried Chicked</h3>
+                                <p class="text-yellow-500"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>40</p>
+                            </div>
+                        </div>
+                        <a href="" class="text-green-500 bg-green-100 py-1 px-2 font-bold">Open Now</a>
+                    </div>
+    
+                       <!-- item 3 -->
+    
+                       <div>
+                        <div class="relative">
+                            <img src="img/red-square.png" class="rounded-xl" alt="">
+                            <div class="absolute flex gap-3 top-3 left-3">
+                                <p class="px-2 py-1 bg-orange-500 text-white rounded-md font-semibold"><i class="fa-solid fa-tag  mr-2" style="color: #ffffff;"></i>10% off</p>
+                                <p class="px-2 py-1 bg-yellow-500 text-white  rounded-md font-semibold"><i class="fa-solid fa-clock  mr-2" style="color: #ffffff;"></i>Fast</p>
+                            </div>
+    
+                        </div>
+                        <div class="flex items-center gap-3 py-3">
+                            <img src="img/red-square-logo.png" class="rounded-lg" alt="">
+                            <div>
+                                <h3 class="font-bold">Kuakata Fried Chicken</h3>
+                                <p class="text-yellow-500"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>40</p>
+                            </div>
+                        </div>
+                        <a href="" class="text-green-500 bg-green-100 py-1 px-2 font-bold">Open Now</a>
+                    </div>
+    
+                       <!-- item 4 -->
+    
+                       <div>
+                        <div class="relative">
+                            <img src="img/taco-bell.png" class="rounded-xl" alt="">
+                            <div class="absolute flex gap-3 top-3 left-3">
+                                <p class="px-2 py-1 bg-orange-500 text-white rounded-md font-semibold"><i class="fa-solid fa-tag  mr-2" style="color: #ffffff;"></i>15% off</p>
+                                <p class="px-2 py-1 bg-yellow-500 text-white  rounded-md font-semibold"><i class="fa-solid fa-clock  mr-2" style="color: #ffffff;"></i>Fast</p>
+                            </div>
+    
+                        </div>
+                        <div class="flex items-center gap-3 py-3">
+                            <img src="img/taco-bell-logo.png" class="rounded-lg" alt="">
+                            <div>
+                                <h3 class="font-bold">Taco bell</h3>
+                                <p class="text-yellow-500"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>50</p>
+                            </div>
+                        </div>
+                        <a class="bg-orange-100 text-orange-500 py-1 px-2 font-bold">Opens Tomorrow</a>
+                    </div>
+                </div>
+
+                <div class="flex justify-center mt-16">
+                <button class="bg-yellow-500 hover:bg-orange-400 duration-300 text-white font-bold py-2 px-4 rounded-md ">View All > </button>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Search Food -->
+
+    <section>
+        <div class="py-10 ">
+            <div class="flex justify-around items-center">
+                <h1 class="text-3xl font-bold text-orange-400   ">Search by Food</h1>
+                <div class="flex gap-10 items-center hidden md:block">
+                    <h3 class="font-bold">VIEW ALL ></h3>
+
+                    <div class="flex gap-3">
+                        <a href="" class="bg-orange-400 py-2 px-4 rounded-full"><i class="fa-solid fa-angle-left" style="color: #ffffff;"></i></a>
+                        <a href="" class="bg-orange-400 py-2 px-4 rounded-full"><i class="fa-solid fa-angle-right" style="color: #ffffff;"></i></a>
+                   
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 flex flex-wrap gap-6 justify-center ">
+
+                <div class="swiper-slide text-center flex justify-center flex-col">
+                <img src="img/search-pizza.png" class="rounded-full w-40 h-40" alt="">
+                <h4 class="font-bold text-center mt-2">Pizza</h4>
+            </div>
+
+            <div class="swiper-slide flex justify-center flex-col">
+                <img src="img/burger.png" class="rounded-full w-40 h-40" alt="">
+                <h4 class="font-bold text-center mt-2">Burger</h4>
+
+            </div>
+
+            <div class="swiper-slide flex justify-center flex-col">
+                <img src="img/noodles.png" class="rounded-full w-40 h-40" alt="">
+                <h4 class="font-bold text-center mt-2">Noodles</h4>
+
+            </div>
+
+            <div class="swiper-slide flex justify-center flex-col">
+                <img src="img/sub-sandwich.png"   class="rounded-full w-40 h-40" alt="">
+                <h4 class="font-bold text-center mt-2">Sub-sandwiches</h4>
+            </div>
+
+            <div class="swiper-slide flex justify-center flex-col">
+                <img src="img/chowmein.png" class="rounded-full w-40 h-40" alt="">
+                <h4 class="font-bold text-center mt-2">Chowmein</h4>
+            </div>
+
+            <div class="swiper-slide flex justify-center flex-col">
+                <img src="img/steak.png" class="rounded-full w-40 h-40" alt="">
+                <h4 class="font-bold text-center mt-2">Steak</h4>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+
+<!-- Best deals -->
+
+    <section>
+        <div class="container mt-11 mx-auto py-20">
+            <!-- itme 1 -->
+            <div class=" bg-white flex flex-col justify-around lg:flex-row sm:mx-auto mx-5" style="box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;">
+                <div class="lg:w-1/3 w-full p-5">
+                    <h1  class="text-3xl  my-4 font-semibold">
+                        Best deals <span class="text-orange-500">Crispy Sandwiches</span>
+                    </h1>
+                    <p>Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.</p>
+                    <button class="bg-orange-400 mt-5 hover:bg-orange-500 duration-300 text-white font-bold w-full py-2">PROCEED TO ORDER ></button>
+                </div>
+                <div class="lg:w-2/3 w-full">
+                <img src="img/crispy-sandwiches.png" class="img-fluid h-auto w-full" alt="">
+            </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class=" bg-white flex flex-col my-20 justify-around lg:flex-row sm:mx-auto mx-5" style="box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;">
+                <div class="lg:w-2/3 w-full">
+                <img src="img/fried-chicken.png" class="img-fluid h-auto w-full" alt="">
+            </div>
+                <div class="lg:w-1/3 w-full p-5">
+                    <h1  class="text-3xl my-4 font-semibold">
+                        Celebrate parties with<span class="text-orange-500"> Fried Chicked</span>
+                    </h1>
+                    <p>Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.</p>
+                    <button class="bg-orange-400 mt-5  hover:bg-orange-500 duration-300 text-white font-bold w-full py-2">PROCEED TO ORDER ></button>
+                </div>
+            </div>
+
+            <!-- item 3 -->
+               <div class=" bg-white flex flex-col my-10 justify-around lg:flex-row sm:mx-auto mx-5" style="box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;">
+                <div class="lg:w-1/3 w-full p-5">
+                    <h1  class="text-3xl my-4 font-semibold">
+                         Wanna eat hot & <span class="text-orange-500"> spicy pizza?</span>
+                    </h1>
+                    <p>Enjoy the large size of sandwiches. Complete your meal with the perfect slice of sandwiches.</p>
+                    <button class="bg-orange-400 hover:bg-orange-500 duration-300 mt-5 text-white font-bold w-full py-2">PROCEED TO ORDER ></button>
+                </div>
+                <div class="lg:w-2/3 w-full">
+                <img src="img/pizza.png" class="img-fluid h-auto w-full" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Ready to order -->
+ <section>
+    <div class="text-center py-20 bg-sec">
+        <div>
+            <h1 class="text-xl sm:text-4xl py-6 font-bold text-white">Are you Ready to order <br> with the best deals?</h1>
+            <button class="bg-orange-500 px-6 py-2 hover:bg-orange-400 duration-300 text-white font-bold">PROCEED TO ORDER ></button>
+        </div>
+    </div>
+ </section>   
+
+    <!-- Footer -->
+
+    <footer>
+        <div class=" bg-gray-950 py-20 text-white ">
+            <div>
+              
+                    <div class="sm:mx-20 mx-10">
+
+                    <h3 class="text-2xl font-semibold py-3 sm:text-center lg:text-left">OUR TOP CITIES</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  mx-auto sm:justify-items-center pb-10 pt-4">
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <p class="font-normal">San Francisco</p>
+                        <p class="font-normal">Miami</p>
+                        <p class="font-normal">San Diego</p>
+                        <p class="font-normal">East Bay</p>
+                        <p class="font-normal">Long Beach</p>
+
+                    </div>
+
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <p class="font-normal">Los Angeles</p>
+                        <p class="font-normal">Washington DC</p>
+                        <p class="font-normal">Seattle</p>
+                        <p class="font-normal">Portland</p>
+                        <p class="font-normal">Nashville</p>
+                    </div>
+
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <p class="font-normal">New York City</p>
+                        <p class="font-normal">Orange County</p>
+                        <p class="font-normal">Atlanta</p>
+                        <p class="font-normal">Charlotte  </p>
+                        <p class="font-normal">Denver</p>
+                    </div>
+
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <p class="font-normal">Chicago</p>
+                        <p class="font-normal">Phoenix</p>
+                        <p class="font-normal">Las Vegas</p>
+                        <p class="font-normal">Sacramento</p>
+                        <p class="font-normal">Sacramento</p>
+                        <p class="font-normal">Oklahoma City</p>            
+                    </div>
+
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <p class="font-normal">Columbus</p>
+                        <p class="font-normal">New Mexico</p>
+                        <p class="font-normal">Albuquerque</p>
+                        <p class="font-normal">Sacramento</p>
+                        <p class="font-normal">New Orleans</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 py-10 mx-auto sm:justify-items-center ">
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <h1 class="font-bold text-xl py-4">COMPANY</h1>
+                        <p class="font-normal">  About Us</p>
+                        <p class="font-normal">Team</p>
+                        <p class="font-normal">Careers</p>
+                        <p class="font-normal">blog</p>
+                    </div>
+                    
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <h1 class="font-bold text-xl py-4">CONTACT</h1>
+                        <p class="font-normal"> Help & Support</p>
+                        <p class="font-normal">Partner with us</p>
+                        <p class="font-normal">Ride with us</p>
+                        <p class="font-normal">Ride with us</p>
+                    </div>
+
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <h1 class="font-bold text-xl py-4">LEGAL</h1>
+                        <p class="font-normal"> Terms & Conditions</p>
+                        <p class="font-normal">Refund & Cancellation</p>
+                        <p class="font-normal">Privacy Policy</p>
+                        <p class="font-normal"> Cookie Policy</p>
+                    </div>
+
+                    <div class="leading-8 mb-4 lg:mb-0 sm:text-center lg:text-left">
+                        <h1 class="font-bold text-xl py-4">LEGAL</h1>
+                        <p class="font-normal"> Terms & Conditions</p>
+                        <p class="font-normal">Refund & Cancellation</p>
+                        <p class="font-normal">Privacy Policy</p>
+                    </div>
+
+
+                    <div class="text-center leading-8" >
+    
+                        <div>
+                            <h1 class="font-bold text-xl py-4">FOLLOW US</h1> 
+                            <div class="d-flex gap-3">
+                            <i class="fa-brands fa-facebook text-xl"></i>
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            <i class="fa-brands fa-twitter text-xl"></i>
+                        </div> 
+                        </div>
+    
+                        <div class="pb-10">
+                            <p class=" font-normal"> Receive exclusive offers and <br> discounts in your mailbox </p>
+                            <div class="py-5">
+                                <input type="text" placeholder="Enter Email" class="py-2 sm:py-1 px-2  rounded-md bg-slate-200 text-white">
+    
+                                <a class="border-0 py-1 px-5 mt-20 sm:mt-0  bg-yellow-500 font-semibold text-white rounded-md">Subscribe</a>
+                            </div>
+                        </div></div>
+                </div>
+
+
+
+                    <hr>
+                    <div class="pt-6">
+
+                    <div class="flex  lg:justify-between flex-col lg:flex-row sm:text-center sm:leading-5">
+                        <p class="font-medium ">All rights Reserved © vaisu, 2024</p>
+                        <p class="font-medium">Made with  by foodwaGon</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    </main>
+
+
+
+
+</body>
+</html>
